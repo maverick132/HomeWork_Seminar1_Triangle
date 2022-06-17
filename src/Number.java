@@ -8,7 +8,9 @@ public class Number {
         return this.number;
     }
 
-    public int calculateTriangleNumber (int n) {
-        return (n * (n + 1)) / 2;
+    public long calculateTriangleNumber (int n) {
+
+            return ((long)n * ((long)n + 1)) / 2;
+
     }
 }
