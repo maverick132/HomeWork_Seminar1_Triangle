@@ -7,11 +7,11 @@ public class TriangleNumber {
         Number number = new Number();
         while (!input.getIsStop()) { // Выполняется, пока в консоль не введем "stop"
             input.inputNumber(number);
-           if (!input.getIsStop() && !input.getIsString() && !input.getIsNegative()) {
-               System.out.printf("Triangle number for %d is %d\n",
-                       number.getNumber(),
-                       number.calculateTriangleNumber(number.getNumber()));
-           }
+            if (!input.getIsStop() && !input.getIsString() && !input.getIsNegative()) {
+                System.out.printf("Triangle number for %d is %d\n",
+                        number.getNumber(),
+                        number.calculateTriangleNumber(number.getNumber()));
+            }
         }
     }
 }
