@@ -1,12 +1,16 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class InputFromConsole {
-        public void inputNumber(Number number){
+        public void inputNumber(Number number) {
         Scanner iScanner = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        if (!iScanner.hasNextInt()) {
-            System.out.print("Неверный ввод данных!");
+        System.out.print("Enter number: ");
+
+        try {
+           number.setNumber(iScanner.nextInt());
         }
-        number.setNumber(iScanner.nextInt());
+        catch (InputMismatchException e) {
+           System.out.print("Error! Invalid data entry\n");
+        }
     }
 }

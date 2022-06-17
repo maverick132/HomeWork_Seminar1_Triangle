@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0784a79c-64e6-424b-a5fe-2fadb377c6c4" name="Changes" comment="Add method calculation number">
-      <change afterPath="$PROJECT_DIR$/src/InputFromConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number.java" afterDir="false" />
+    <list default="true" id="0784a79c-64e6-424b-a5fe-2fadb377c6c4" name="Changes" comment="Add class number and InputFromConsole.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputFromConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputFromConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
 }]]></component>
   <component name="RunManager">
@@ -84,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655491181525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add class number and InputFromConsole.">
+      <created>1655493222562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655493222562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +119,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add calculation method triangle number" />
     <MESSAGE value="Add method calculation number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method calculation number" />
+    <MESSAGE value="Add class number and InputFromConsole." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class number and InputFromConsole." />
   </component>
 </project>
